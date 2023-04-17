@@ -23,8 +23,8 @@ class _RollDice extends State<RollDice>{
     return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(dice, width: 250,),
-              const SizedBox(height: 50,),
+              Image.asset(dice, width: 276,),
+              const SizedBox(height: 58,),
               TextButton(
                 onPressed: rollDice, 
                 style: TextButton.styleFrom(
